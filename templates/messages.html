@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>📬 Полученные сообщения</h2>
+
+<div style="background-color: #f9f9f9; padding: 10px; border-radius: 8px;">
+  <pre style="white-space: pre-wrap; font-size: 16px;">
+{{ messages }}
+  </pre>
+</div>
+
+<a href="/" style="display: inline-block; margin-top: 15px;">← Назад на главную</a>
+{% endblock %}
