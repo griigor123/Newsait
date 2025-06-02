@@ -1,9 +1,0 @@
-{% extends "base.html" %}
-
-{% block title %}Главная{% endblock %}
-
-{% block content %}
-<h1>Добро пожаловать на сайт!</h1>
-<p>Этот сайт создан для практики с Flask в Termux.</p>
-{% endblock %}
-
